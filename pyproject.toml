@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "study-bud"
+version = "0.1.0"
+description = ""
+authors = ["abhishek.vaish <abhishek.vaish@acsicorp.com>"]
+readme = "README.md"
+packages = [{include = "study_bud"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = ">=3.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
